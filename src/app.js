@@ -12,4 +12,10 @@ app.use(cors({
 app.use(express.static("public"));
 app.use(cookieParser());
 
+
+//registration route
+import userRouter from './routes/userRoute.js'
+
+app.use("/api/v1/user", userRouter)
+
 export {app}
