@@ -1,0 +1,3 @@
+password hash hoy nai
+    if ([fullName, email, password].some((field) => field?.trim() === "")) //[]kno nilam;
+    
